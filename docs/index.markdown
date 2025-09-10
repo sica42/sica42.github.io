@@ -33,6 +33,8 @@ items:
 <h1>{{ site.title | default: site.github.repository_name }}</h1>
 <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+<a href="https://www.buymeacoffee.com/sica" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## Addons
 
 {% for item in page.items %}
