@@ -12,13 +12,6 @@ items:
     desc: Share and view tradeskill recipes with your guild.
   - title: KillTrack
     desc: Tracks all your kills.
-  - title: TitleRotator
-    desc: Rotates your titles every few seconds.
-  - title: TurtleCalendar
-    desc: In-game calendar showing you raid & instances lockout, battleground and Darkmoon faire timers.
-  - title: TurtleMail
-    dl: https://github.com/sica42/TurtleMail/archive/refs/heads/master.zip
-    desc: Automatically opens mail, mail multiple items, autocomplete recipient names, shows collected gold.
   - title: RaidCalendar
     desc: In-game raid calendar where you can signup and register SR items in-game.
   - title: RollFor
@@ -27,6 +20,13 @@ items:
     desc: An addon that automates rolling for items for vanilla WoW.
   - title: Speedometer
     desc: Shows your current running speed.
+  - title: TitleRotator
+    desc: Rotates your titles every few seconds.
+  - title: TurtleCalendar
+    desc: In-game calendar showing you raid & instances lockout, battleground and Darkmoon faire timers.
+  - title: TurtleMail
+    dl: https://github.com/sica42/TurtleMail/archive/refs/heads/master.zip
+    desc: Automatically opens mail, mail multiple items, autocomplete recipient names, shows collected gold.
 ---
 
 
@@ -39,3 +39,8 @@ items:
 
 {% for item in page.items %}
 | <a class="download" title="Download" href="{% if item.dl %}{{ item.dl }}{% else %}https://github.com/sica42/{{ item.title }}/archive/refs/heads/main.zip{% endif %}"></a><a class="github" title="Github page" href="https://github.com/sica42/{{ item.repo | default: item.title }}"><a href="./{{ item.title }}">{{ item.title }}</a> | {{ item.desc }}|{% endfor %}
+
+## Other stuff
+
+| <a class="download" title="Download" href="https://github.com/sica42/RaidCalendarBot/releases/latest"></a><a class="github" title="Github page" href="https://github.com/sica42/RaidCalendarBot"><a href="./RaidCalendarBot">RaidCalendarBot</a> | 
+
