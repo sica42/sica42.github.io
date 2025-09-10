@@ -4,6 +4,8 @@ title: RollFor
 repo: https://github.com/sica42/roll-for-vanilla/releases/download/latest/RollFor.zip
 ---
 
+<base href="https://raw.githubusercontent.com/sica42/roll-for-vanilla/refs/heads/master/docs" >
+
 # RollFor
 A World of Warcraft (1.12.1 and 2.5.2) addon that manages rolling for items.  
 
@@ -265,6 +267,7 @@ Click on the minimap icon and click **Clear** or type:
 ## Shoutouts
 
 Thank you to:
+  * **<a href="https://github.com/obszczymucha/">obszczymucha</a>** the original creator of this addon.
   * **Turtle WoW devs** for amazing content. You cunts should switch to a better client.  
   * **Itamedruids** for *Raidres* and adding the export function. Love your work.  
   * My fellow raiders (there's too many to mention).  
@@ -274,10 +277,6 @@ Thank you to:
 ## Need more help?
 
 The best way to contact me is to message me on Discord.  
-Username: **Obszczymucha**  
+Username: **ccsica**  
 
-My character **Jogobobek** will no longer be available on Turtle WoW.  
-I'm switching to Netherwing 3.0, perhaps under a different name :P  
-
-Thanks Turtle for fun.
-
+You can also find me on my character **Sica** on Nordanaar Turtle WoW server.
