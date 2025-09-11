@@ -44,5 +44,5 @@ The easiest way to install these addons is by using the Turtle Launcher. Right-c
 
 ## Other stuff
 
-| <a class="download" title="Download" href="https://github.com/sica42/RaidCalendarBot/releases/latest"></a><a class="github" title="Github page" href="https://github.com/sica42/RaidCalendarBot"><a href="./RaidCalendarBot">RaidCalendarBot</a> | 
+| <a class="download" title="Download" href="https://github.com/sica42/RaidCalendarBot/releases/latest"></a><a class="github" title="Github page" href="https://github.com/sica42/RaidCalendarBot"><a href="./RaidCalendarBot">RaidCalendarBot</a> | Clientless bot written in Scala that acts as a command central for the RaidCalendar addon.
 
