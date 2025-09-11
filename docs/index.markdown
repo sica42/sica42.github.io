@@ -37,6 +37,8 @@ items:
 
 ## Addons
 
+The easiest way to install these addons is by using the Turtle Launcher. Right-click the GitHub icon below and select "Copy Link", then paste the link into the launcher.
+
 {% for item in page.items %}
 | <a class="download" title="Download" href="{% if item.dl %}{{ item.dl }}{% else %}https://github.com/sica42/{{ item.title }}/archive/refs/heads/main.zip{% endif %}"></a><a class="github" title="Github page" href="https://github.com/sica42/{{ item.repo | default: item.title }}"><a href="./{{ item.title }}">{{ item.title }}</a> | {{ item.desc }}|{% endfor %}
 
