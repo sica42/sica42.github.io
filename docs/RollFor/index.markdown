@@ -7,7 +7,8 @@ repo: https://github.com/sica42/roll-for-vanilla/releases/download/latest/RollFo
 <base href="https://raw.githubusercontent.com/sica42/roll-for-vanilla/refs/heads/master/docs" >
 
 # RollFor
-A World of Warcraft (1.12.1 and 2.5.2) addon that manages rolling for items.  
+A World of Warcraft (1.12.1) addon that manages rolling for items.  
+The [original version of RollFor](https://github.com/obszczymucha/roll-for-vanilla) supports both 1.12.1 and 2.5.2 clients, but this version has only been tested on 1.12.1.
 
 ## New in this fork
 This version includes the following new features:
@@ -23,10 +24,6 @@ This version includes the following new features:
 * Show roll popup for all group/raid members who have the addon installed when loot master starts a roll.
    * Enable with `/rf config client show-roll Eligible` or `Always`
    * `/rf config client` to view additional client options
-
-
-## Turtle WoW easy install
-This repository does not work with the Turtle WoW launcher. If you want to install the addon via the launcher, use https://github.com/sica42/RollFor instead.
 
 ### NEW
 
